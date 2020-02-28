@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Final PLP</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ouy8hoj.css">
+    <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+<!--Start Navbar-->
+    <header id="header">
+        <nav id="nav-bar">
+            <a id="nav-img" class="nav-link" href="#sub-image" >
+                <img id="header-img" src="images/Logo.png"  >
+                <!-- <img id="Small-header-img" src="images/Logo.png" height=80px> -->
+            </a> 
+            <a id="nav-how" class="nav-link" href="#how">How it works</a> 
+            <a id="nav-how-Small" class="nav-link" href="#how">How</a> 
+            <a id="nav-order" class="nav-link" href="#order">Order</a>
+        </nav>
+    </header>
+<!--End Navbar-->
+
+<!-- Start Photo-->
+    <section class="container" id="sub-image">
+        <div id="sub-header">
+            <div id="top-head"></div> 
+            <h3 id="bottom-head">Treat yourself to beautiful flowers</h3>
+            <h5 id="sub-head">delivered right at your door</h5>
+        </div>
+    </section>
+<!--End Photo-->
+
+<!--Start How section-->
+    <section class="how-container">
+        <div id="how">
+            <h2 class="section-title">How it works</h2>
+            <hr class="hr-title">
+        </div>
+        
+        <ol id="how-list">
+            <li class="how">
+                <h3>1. Choose size</h3>
+                <div id="small">
+                    <img src="https://bloomon.nl/img/db/product_1.jpg" width="100%">
+                    <p>Small</p>
+                </div>
+                <div id="medium">
+                    <img src="https://bloomon.nl/img/db/product_2.jpg" width="100%">
+                    <p>Medium</p>
+                </div>
+                <div id="large">
+                    <img src="https://bloomon.nl/img/db/product_3.jpg" width="100%">
+                    <p>Large</p>
+                </div>
+            </li>
+            
+            <li class="how">
+                <h3>2. Set delivery date</h3>
+                <p>Choose when you want your flowers to be delivered.</p>
+                <input id="date" type="date" value="2019-09-01">
+            </li>
+            <li class="how">
+                <h3>3. No commitment</h3>
+                <p>Pause or cancel your membership whenever you want.</p>
+            </li>
+            <li class="how" id="order">
+                <h3>4. Order</h3>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                    <div>
+                        <input id="email" type="email" name="email" placeholder="Enter your emailaddress">
+                    </div>
+                    <div>
+                        <input id="submit" type="submit" value="Submit Order">
+                    </div>
+                </form>
+            </li>
+        </ol>
+    </section>
+<!--End How section-->
+
+<!--Start Video Section-->
+    <section>
+        <div id="video-section">
+            <h2 class="section-title">Let the fun begin!</h2>
+            <hr class="hr-title">
+            <iframe id="video" src="https://www.youtube.com/embed/_qAazRvDm2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>   
+<!--End Video Section-->
+
+<!--Start Footer Section-->
+    <footer >
+        <div id="copyright">Made by Esther van Eden - 2019</div>
+        <div ><a id="contact" href="#">Contact</a></div>
+        <div ><a id="privacy" href="#">Privacy</a></div>
+    </footer> 
+<!--End Footer Section-->
+</body>
+</html>
